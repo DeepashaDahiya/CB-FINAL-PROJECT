@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WeatherWave - Your Weather Companion</title>
+   
+</head>
+<body>
+    <div id="main">
+        <div id="page1">
+            <nav>
+                <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/63069/weather-icon-clipart-md.png" height="100" >
+                <h1>WeatherWave</h1>
+            
+            <div id="nav-part2">
+                <h4><a href="#">SignIn</a></h4>
+                <h4><a href="#">Work</a></h4>
+                <h4><a href="#">Contact us</a></h4>
+                
+            </nav>
+            <div id="center">
+                <div id="left">
+                    <h3>WeatherWave is a Weather forecasting <br>
+                        Website focused on giving the users <br>
+                        an easy access to the weather <br>
+                        conditions of any location.</h3>
+                </div>
+                <div id="right">
+                   <h1>Embrace Every Forecast
+                     With WeatherWave</h1>
+
+                     <div class="container">
+                        <header>
+                            <h2>WeatherWave</h2>
+                            <p>Your Weather Companion</p>
+                        </header>
+                        <main>
+                            <div class="search-container">
+                                <input type="text" id="locationInput" placeholder="Enter Location">
+                                <button onclick="getWeather()">Get Weather</button>
+                            </div>
+                            <div id="weatherInfo">
+                                <p id="location"></p>
+                                <p id="temperature"></p>
+                                <p id="weatherDescription"></p>
+                                <i id="weatherIcon" class="fas fa-sun"></i>
+                            </div>
+                            <div id="weatherInfo"></div>
+                        </main>
+                    </div>
+
+                </div>
+            </div>
+
+              <!-- Add a container for the animated text -->
+        <div id="moving-text">
+            <div class="con">
+               
+                <h1>As temperatures dip, it's crucial to layer up and dress warmly. Don't forget hats, gloves, and scarves to stay cozy in the chilly weather.</h1>
+                <div id="gol"></div>
+                <h1>Climate change alters traditional weather patterns, causing shifts in precipitation, temperature, and seasonal cycles.</h1>
+                <div id="gol"></div>
+                <h1> Seek shelter indoors and avoid unnecessary travel during severe weather conditions.</h1>
+                <div id="gol"></div>
+            </div>
+            <div class="con">
+               
+                <h1>As temperatures dip, it's crucial to layer up and dress warmly. Don't forget hats, gloves, and scarves to stay cozy in the chilly weather.</h1>
+                <div id="gol"></div>
+                <h1>Climate change alters traditional weather patterns, causing shifts in precipitation, temperature, and seasonal cycles.</h1>
+                <div id="gol"></div>
+                <h1> Seek shelter indoors and avoid unnecessary travel during severe weather conditions.</h1>
+                <div id="gol"></div>
+            </div>
+            <div class="con">
+               
+                <h1>>As temperatures dip, it's crucial to layer up and dress warmly. Don't forget hats, gloves, and scarves to stay cozy in the chilly weather.</h1>
+                <div id="gol"></div>
+                <h1>Climate change alters traditional weather patterns, causing shifts in precipitation, temperature, and seasonal cycles.</h1>
+                <div id="gol"></div>
+                <h1> Seek shelter indoors and avoid unnecessary travel during severe weather conditions.</h1>
+                <div id="gol"></div>
+            </div> 
+       
+        </div>
+  
+            <div id="center2">
+            <div class="ytvdocontainer">
+                <header>
+                    <h2>Top weather Stories</h2>
+                    <p>Your Weather Companion</p>
+                </header>
+                <main>
+                    <div class ="video-container1">
+                        <iframe width="935" height="526" src="https://www.youtube.com/embed/ierN-gzBazQ" title="Weather update: Cold wave grips north India; 26 trains running late in Delhi due to low visibility" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div id="video-container2">  
+                        <iframe width="935" height="526" src="https://www.youtube.com/embed/N9GCoDMHDWo" title="Delhi Weather | Severe Cold Day Conditions Persists In Delhi And Other Parts Of North India" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+
+                    <section id="interactive">
+                        <h2>Interactive Quiz</h2>
+                        <p>Test your knowledge with our weather quiz and challenge your friends to see who knows more about the wether and the geographical world!</p>
+                        <a href="quiz.html" class="quiz-link">Take the Quiz</a>
+                    </section>
+
+                </div>
+
+                </main>
+            </div>
+
+            <div id="center3">
+                <h2>Thank You for Choosing WeatherWave!</h2>
+                Stay Tuned for the Latest Weather Updates
+                <div class="cool-features">
+                    <a href="#" class="feature-link">
+                        <img src="https://www.clipartmax.com/png/middle/440-4401710_subscribe-to-our-newsletter-open-envelope-icon-png.png" alt="Newsletter Icon" class="feature-icon"> Subscribe to our Newsletter
+                    </a>
+                    <a href="#" class="feature-link">
+                        <img src="https://th.bing.com/th/id/OIP.rCt5GiKjFtyk8mCwFn2lrQAAAA?rs=1&pid=ImgDetMain" alt="Social Media Icon"  class="feature-icon"> Follow us on Social Media
+                    </a>
+                    <a href="#" class="feature-link">Explore More Weather Insights</a>
+                </div>
+
+                <div class="feedback-form">
+                    <h3>Your Weather Thoughts Matter!</h3>
+                    <form action="#" method="post">
+                        <label for="feedback">Share Your Valuable Feedback:</label>
+                        <textarea id="feedback" name="feedback" rows="4" placeholder="How can we improve your weather experience?" required></textarea>
+                        <a href="#" class="feature-link">Submit Feedback</a>
+                    </form>
+                </div>
+
+            </div>
+
+            <footer>
+                <p>Made with ☁️ and ❤️ by Deepasha Dahiya | WeatherWave &copy; 2024</p>
+            </footer>
+                
+                 </div>
+             </div>
+
+            </div>
+        </div>
+</div>
+   
+    <script src="script.js"></script>
+    
+</body>
+</html>
