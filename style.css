@@ -105,7 +105,7 @@ nav {
     color: #fff;
     font-size: 18px;
     font-weight: bold;
-    animation: slide 5s linear infinite; /* Adjust the duration as needed */
+    animation: slide 5s linear infinite;
   }
   
   @keyframes slide {
@@ -183,7 +183,6 @@ display: inline-block;
     align-items: center;
     margin-top: 0vw;
     background-image: url(https://wallpaperaccess.com/full/1540049.jpg);
-    /* background-image: url(https://th.bing.com/th/id/R.069cf185a7daba4caceb8e10e84da46b?rik=H6UDZfO%2b56isFg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f07%2fDownload-Free-Weather-Background.jpg&ehk=JNt8y9ofXKAnT7OCpITBYQSnexCUjI9Hmcb24SZmQrs%3d&risl=&pid=ImgRaw&r=0);   */
     padding-bottom: 2.5vw;
 
 }
@@ -319,10 +318,6 @@ button:hover {
     background-color: #2980b9;
 }
 
-/* #weatherInfo {
-    font-size: 18px;
-    color: #333;
-} */
 
 #center3{
     height: 30vw;
@@ -452,9 +447,3 @@ padding: 1vw 1vw;
 
 }
 
-
-/* 
-#mapcontainer{
-    width: 600px;
-    height: 600px;
-} */
