@@ -175,7 +175,7 @@ display: inline-block;
 
 
 #center2{
-    height:200vh; 
+    height:200vw; 
     width: 100%;
     background-color: rgb(149, 204, 237);
     display: flex;
@@ -227,7 +227,7 @@ display: inline-block;
 }
 
 .ytvdocontainer{
-    margin-top: -9%;
+    margin-top: -10%;
     max-width: 1100px;
     height: 1250px;
     text-align: center;
